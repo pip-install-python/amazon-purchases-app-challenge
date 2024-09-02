@@ -58,10 +58,6 @@ app.layout = dmc.MantineProvider(
                                 )
                             ]
                         ),
-                        # html.H1(
-                        #     "Purchases Analysis Dashboard",
-                        #     style={"textAlign": "center"},
-                        # ),
                         html.H2(id="total-value", style={"textAlign": "center"}),
                         dmc.Group(
                             [
